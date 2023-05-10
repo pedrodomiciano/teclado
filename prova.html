@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Teclado</title>
+  <style>
+
+    .teclado 
+    {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      width: 80%;
+      margin: 0 auto;
+      padding: 20px;
+      font-size: 20px;
+      background: rgba(0, 0, 0, 0.437);
+      box-shadow: 0 15px 20px 0 rgba(248, 0, 0, 0.664);
+      backdrop-filter: blur( 5.5px );
+      -webkit-backdrop-filter: blur( 5.5px );
+      border-radius: 10px;
+      border: 1px solid rgba(226, 8, 8, 0.18);
+    }
+    
+    .fileira1
+    {
+        display: flex;
+        flex-direction: row;
+        
+    }
+
+    .fileira2
+    {
+      display: flex;
+      flex-direction: row;
+    }
+
+
+    .fileira3
+    {
+      display: flex;
+      flex-direction: row;
+    }
+
+    .fileira4
+    {
+      display: flex;
+      flex-direction: row;
+    }
+
+    .fileira5
+    {
+      display: flex;
+      flex-direction: row;
+    }
+
+    .fileira6
+    {
+      display: flex;
+      
+    }
+
+
+    .tecla
+    {
+      border-radius: 4px;
+      background: linear-gradient(225deg, #cacaca, #f0f0f0);
+      box-shadow:  -4px 4px 8px #a8a8a8,
+             4px -4px 8px #ffffff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 70px;
+      height: 55px;
+      margin: 10px;
+      font-weight: bold;
+      font-size: 18px;
+      cursor: pointer;
+      border: 1px solid rgb(0, 0, 0);
+      font-family:cursive;
+
+    }
+    .a
+    {
+      width: 70px;
+      height: 70px;
+    }
+    .t2
+    {
+
+      width: 300px;
+
+    }
+    .t3
+    {
+      width: 120px;
+    }
+
+    .ff
+    {
+      height: 42px;
+    }
+
+    .tecla.apertada {
+      background-color: rgb(255, 0, 0);
+      color: rgb(0, 0, 0);
+      box-shadow:  -4px 4px 8px #ff0000,
+             4px -4px 8px #ff0000;
+    }
+
+    .red
+    {
+      width:90px;
+      height:90px;
+    }
+  </style>
+</head>
+<body>
+  
+  <div class="teclado">
+  
+    <div class="fileira1">
+        <div class="tecla ff" id="27">Esc</div>
+        <div class="a"></div>
+        <div class="tecla ff" id="112">F1</div>
+        <div class="tecla ff" id="113">F2</div>
+        <div class="tecla ff" id="114">F3</div>
+        <div class="tecla ff" id="115">F4</div>
+        <div class="tecla ff" id="116">F5</div>
+        <div class="tecla ff" id="117">F6</div>
+        <div class="tecla ff" id="118">F7</div>
+        <div class="tecla ff" id="119">F8</div>
+        <div class="tecla ff" id="120">F9</div>
+        <div class="tecla ff" id="121">F10</div>
+        <div class="tecla ff" id="122">F11</div>
+        <div class="tecla ff" id="123">F12</div>
+    </div>
+
+    <div class="fileira2">
+      <div class="tecla" id="192">`</div>
+      <div class="tecla" id="49">1</div>
+      <div class="tecla " id="50">2</div>
+      <div class="tecla" id="51">3</div>
+      <div class="tecla" id="52">4</div>
+      <div class="tecla" id="53">5</div>
+      <div class="tecla" id="54">6</div>
+      <div class="tecla" id="55">7</div>
+      <div class="tecla" id="56">8</div>
+      <div class="tecla" id="57">9</div>
+      <div class="tecla" id="48">0</div>
+      <div class="tecla" id="189">-</div>
+      <div class="tecla" id="187">=</div>
+      <div class="tecla" id="8">Delete</div>
+    </div>
+
+  <div class="fileira3">
+    <div class="tecla" id="9">Tab</div>
+    <div class="tecla" id="81">Q</div>
+    <div class="tecla" id="87">W</div>
+    <div class="tecla" id="69">E</div>
+    <div class="tecla" id="82">R</div>
+    <div class="tecla" id="84">T</div>
+    <div class="tecla" id="89">Y</div>
+    <div class="tecla" id="85">U</div>
+    <div class="tecla" id="73">I</div>
+    <div class="tecla" id="79">O</div>
+    <div class="tecla" id="80">P</div>
+    <div class="tecla" id="219">´</div>
+    <div class="tecla" id="221">[</div>
+    <div class="tecla" id="13">Enter</div>
+  </div>
+
+  <div class="fileira4">
+    <div class="tecla t3" id="20">Caps Lock</div>
+    <div class="tecla" id="65">A</div>
+    <div class="tecla" id="83">S</div>
+    <div class="tecla" id="68">D</div>
+    <div class="tecla" id="70">F</div>
+    <div class="tecla" id="71">G</div>
+    <div class="tecla" id="72">H</div>
+    <div class="tecla" id="74">J</div>
+    <div class="tecla" id="75">K</div>
+    <div class="tecla" id="76">L</div>
+    <div class="tecla" id="186">Ç</div>
+    <div class="tecla" id="222">~</div>
+    <div class="tecla" id="220">]</div>
+  </div>
+
+
+    <div class="fileira5">
+    <div class="tecla" id="16">Shift</div>
+    <div class="tecla" id="226">\</div>
+    <div class="tecla" id="90">Z</div>
+    <div class="tecla" id="88">X</div>
+    <div class="tecla" id="67">C</div>
+    <div class="tecla" id="86">V</div>
+    <div class="tecla" id="66">B</div>
+    <div class="tecla" id="78">N</div>
+    <div class="tecla" id="77">M</div>
+    <div class="tecla" id="188">,</div>
+    <div class="tecla" id="190">.</div>
+    <div class="tecla" id="191">;</div>
+    <div class="tecla" id="193">/</div>
+  </div>
+
+  <div class="fileira6">
+    <div class="tecla" id="17">Ctrl</div>
+    <div class="tecla" id="91">Win</div>
+    <div class="tecla" id="18">Alt</div>
+    <div class="tecla t2" id="32">Espaço</div>
+    <div class="tecla" id="93">Menu</div>
+    <div class="a"></div>
+    <div class="a"></div>
+    
+  </div>
+
+  <img class="red" src="red-removebg-preview.png">
+  </div>
+  
+  <script>
+        document.onkeydown = Pega_Tecla;
+
+      function Pega_Tecla(e) 
+      { 
+          e = e || window.event;
+          t = e.keyCode;
+          var tElement = document.getElementById(t);
+          tElement.classList.add("apertada");
+          console.log(t); // MOSTRA O CÓDIGO DA TECLA PRESSIONADA
+      }
+      document.onkeyup = Solta_Tecla;
+
+      function Solta_Tecla(e) 
+      { 
+          e = e || window.event;
+          var tElement = document.getElementById(t);
+          tElement.classList.remove("apertada");
+      }
+  </script>
+</body>
+</html>
